@@ -8,6 +8,10 @@ wget --no-cookies \
  "http://download.oracle.com/otn-pub/java/jdk/7u55-b13/jdk-7u55-linux-x64.rpm" \
  -O jdk-7-linux-x64.rpm
 ```
+## Install jdk 8##
+```shell
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jdk-8u66-linux-x64.tar.gz"
+```
 ## Add Java Config into System Env(~/.bashrc or /etc/profile)
 ```
 export JAVA_HOME=/usr/java/jdk1.7.0_55
